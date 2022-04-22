@@ -1,6 +1,4 @@
-Setup Challenges
-
-I wrote this code using:
+Setup
 >Ubuntu 20.04.4 LTS (focal) through  
 Windows Subsystem for Linux v2  
 MySQL 8.0.28-0ubuntu0.20.04.3  
@@ -99,15 +97,3 @@ In other words, `~/github/$ mysql` requires different relative paths than `~/git
   </details>
 
 </details>
-
-<!-- 
-ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
-ERROR 3948 (42000): Loading local data is disabled; this must be enabled on both the client and server sides
-
-RESOLVED BY:
-service mysql restart
-mysql --local-infile=1 -u root -p
-mysql> set global local_infile=true;
-
-
--->
