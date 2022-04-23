@@ -7,10 +7,19 @@ Spring 2021 - MSU Denver
 ---
 
 ### Flowers Database
-The goal of this project was to use SQL to create a small database with three tables, populate them with data, and query the database.
+The goal of this project was to use SQL to create a small database with three tables, populate them with data, and query the database.  
 
 
-### Files
+
+
+##### Content to Add:
+- [ ] modify users and permissions
+- [ ] functions
+- [ ] stored procedures
+
+---
+
+### Main Files
 `create_tables.sql` creates and populates the tables.  
 `queries.pdf` contains a list of queries and the expected output of each.  
 `queries.sql` contains the statements to execute the queries listed in the pdf file.
