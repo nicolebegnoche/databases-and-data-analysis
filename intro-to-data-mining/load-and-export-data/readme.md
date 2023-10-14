@@ -10,8 +10,8 @@ Basic data transfers between csv, json, and xlsx formats and MySQL database
 
 [Activity 2 - csv_export](https://github.com/thyagomota/21FCS390Z/tree/main/activity_02_csv_export)
 
-- [ ] Write an sql script to create users and grant permissions
-- [ ] Write a python script to export data from a database to a csv file
+- [x] Write an sql script to create users and grant permissions[^3]
+- [x] Write a python script to export data from a database to a csv file[^4]
 
 [Homework 1 - xlsx_load](https://github.com/thyagomota/21FCS390Z/tree/main/hwk_01_xlsx_load)
 
@@ -19,5 +19,9 @@ Basic data transfers between csv, json, and xlsx formats and MySQL database
 - [ ] Use the xml parser from Beautiful Soup to save the extracted information in json format
 
 
+<!-- footnotes -->
 [^1]: create_table.sql
 [^2]: populate_db_from_csv.py
+
+[^3]: create_users.sql
+[^4]: export_from_db_to_csv.py
