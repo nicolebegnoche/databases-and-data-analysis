@@ -1,0 +1,6 @@
+{
+    "error": {
+      "code": 400,
+      "message": "Bad Request: QOD category not supported for this category and language combination"
+    }
+  }
