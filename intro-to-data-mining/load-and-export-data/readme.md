@@ -15,8 +15,7 @@ Basic data transfers between csv, json, and xlsx formats and MySQL database
 
 [Homework 1 - xlsx_load](https://github.com/thyagomota/21FCS390Z/tree/main/hwk_01_xlsx_load)
 
-- [ ] Extract the xml files from a .xlsx without using any external libraries
-- [ ] Use the xml parser from Beautiful Soup to save the extracted information in json format
+- [x] Extract the xml files from a .xlsx without using any external libraries and use the xml parser from Beautiful Soup to save the extracted information in json format[^5]
 
 
 <!-- footnotes -->
@@ -25,3 +24,5 @@ Basic data transfers between csv, json, and xlsx formats and MySQL database
 
 [^3]: create_users.sql
 [^4]: export_from_db_to_csv.py
+
+[^5]: xlsx_load.py
