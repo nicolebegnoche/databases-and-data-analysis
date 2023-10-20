@@ -29,8 +29,7 @@
 
 
 [Homework 2 - Weather API](https://github.com/thyagomota/21FCS390Z/tree/main/hwk_02_weather_api)
-- [ ] Extract information from from [this site](https://openweathermap.org/) to create the following json file:
-![](../resources/images/homework_1_output.png)
+- [ ] Extract information from from [this site](https://openweathermap.org/) and save in json format
 
 [Program 1 - Preliminary Data Analysis](https://github.com/thyagomota/21FCS390Z/tree/main/prg01_preliminary_analysis)
 
