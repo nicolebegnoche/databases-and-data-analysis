@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+databases-repo = {file = ".", editable = true}
+bs4 = "*"
+requests = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

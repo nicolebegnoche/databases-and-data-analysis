@@ -12,3 +12,6 @@ A repository combining classwork and personal projects involving databases or da
 
 #### Spreadsheet Analysis
 > Some examples of using Excel to visualize data to help myself, friends, and family make decisions like by evaluating the cost/value of computers or choosing between mortgage offers
+
+
+Notes:  file locations are relative from root folder
