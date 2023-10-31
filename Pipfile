@@ -4,10 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-databases-repo = {file = ".", editable = true}
-bs4 = "*"
-requests = "*"
 pytest = "*"
+databases = {file = ".", editable = true}
 
 [dev-packages]
 
