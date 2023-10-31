@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "043cdd63ea1d41cd26ea5c1853ca981a91e69c3ded9acb6d99ffb8cf8b1f40b5"
+            "sha256": "1387ce6e36e10b6f3635d9a9309cd6d88dd3464d2fc87ba0f0abd4c598c4f3c3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -143,7 +143,7 @@
             "markers": "sys_platform == 'win32'",
             "version": "==0.4.6"
         },
-        "databases-repo": {
+        "databases": {
             "editable": true,
             "file": "."
         },

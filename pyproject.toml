@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "databases"
+version = "0.0.1"
+authors = [{ name="Nicole", email="29169568+nicolebegnoche@users.noreply.github.com" }]
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Windows",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [ 
+    "--import-mode=importlib", 
+    "-v",
+]
+testpaths = [
+    "tests",
+]
+python_files = "*_test.py"
+python_functions = "test_*"

@@ -15,18 +15,18 @@
 #     {"name": "ABAGNALE Giovanni", "noc": "Italy", "discipline": "Rowing"},
 
 
-import os, shutil, json
-from zipfile import ZipFile
-from bs4 import BeautifulSoup
+# import os, shutil, json
+# from zipfile import ZipFile
+# from bs4 import BeautifulSoup
 
 
 # # definitions/parameters
 # DATA_FOLDER =       os.path.join("..", "resources", "data")
-DATA_FOLDER =       os.path.join("resources", "data")
+# DATA_FOLDER =       os.path.join("resources", "data")
 
 
-out = os.path.exists(DATA_FOLDER)
-print(out)
+# out = os.path.exists(DATA_FOLDER)
+# print(out)
 
 # OUTPUT_FOLDER =     os.path.join('.', 'output')
 # XLSX_FILE =         os.path.join(DATA_FOLDER, "athletes.xlsx")
@@ -112,3 +112,7 @@ print(out)
                                            
 #                                         ↪ equivalent to  [strings[11314], strings[11315], strings[11316]]
 # '''
+
+
+from resources.methods.misc_methods import quit_msg
+quit_msg('import successful')
